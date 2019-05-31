@@ -1,4 +1,4 @@
-class Request {
+class HttpRequest {
     constructor() {
         this.xhr = new XMLHttpRequest();
     }
