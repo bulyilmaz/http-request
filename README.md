@@ -1,6 +1,6 @@
 ### HTTP Request Class with Vanilla JavaScript & Webpack
 
-`cd /path/to/request`
+`cd /path/to/http-request`
 
 `npm install`
 
