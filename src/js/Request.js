@@ -70,4 +70,4 @@ class HttpRequest {
     }
 }
 
-export default Request;
+export default HttpRequest;
