@@ -1,10 +1,10 @@
-import Request from "./Request.js";
+import HttpRequest from "./HttpRequest.js";
 
-(new Request()).get("https://jsonplaceholder.typicode.com/posts/1", (response) => {
+(new HttpRequest()).get("https://jsonplaceholder.typicode.com/posts/1", (response) => {
     console.log(response);
 });
 
-(new Request()).post("https://jsonplaceholder.typicode.com/posts", {
+(new HttpRequest()).post("https://jsonplaceholder.typicode.com/posts", {
     title: "foo",
     body: "bar",
     userId: 1
@@ -12,7 +12,7 @@ import Request from "./Request.js";
     console.log(response);
 });
 
-(new Request()).put("https://jsonplaceholder.typicode.com/posts/1", {
+(new HttpRequest()).put("https://jsonplaceholder.typicode.com/posts/1", {
     title: "foo",
     body: "bar",
     userId: 1
@@ -20,6 +20,6 @@ import Request from "./Request.js";
     console.log(response);
 });
 
-(new Request()).delete("https://jsonplaceholder.typicode.com/posts/1", (response) => {
+(new HttpRequest()).delete("https://jsonplaceholder.typicode.com/posts/1", (response) => {
     console.log(response);
 });
