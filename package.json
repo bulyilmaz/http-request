@@ -1,5 +1,5 @@
 {
-  "name": "request",
+  "name": "http-request",
   "description": "HTTP Request Class with Vanilla JavaScript & Webpack",
   "author": "Bülent YILMAZ",
   "devDependencies": {
@@ -16,6 +16,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bulyilmaz/request.git"
+    "url": "git+https://github.com/bulyilmaz/http-request.git"
   }
 }
